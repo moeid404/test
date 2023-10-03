@@ -23,7 +23,14 @@
 ## 2.nginx role 🚩
 ### tasks/main.yml
 > After this role you will get:
-- Nginx with the latest version
+- Nginx at latest version
 - Empty /etc/nginx/sites-availabe
 - Nginx server tokens off
-
+----
+## 3.php-fpm role 🚩
+### defaults/main.yml
+- Define php_version variable
+### tasks/main.yml
+> After this role you will get:
+- php-fpm, php-mysql at latest version
+- Some configuration for php-fpm
