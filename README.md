@@ -14,7 +14,10 @@
 - Define the user you want to create
 - Define the port you want to contact through via ssh
 ## tasks/main.yml
-- 
+After this role you will be able to:
+- Connect to the server via ssh without any password
+- Have a user on that server with sudo privileges
 ## templates/main.yml
 ## vars/main.yml
+- Define the path of the passwd_file
 
