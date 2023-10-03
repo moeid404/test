@@ -21,13 +21,9 @@ After this role you will be able to:
 - Define the path of the passwd_file
 
 # 2.nginx role 🚩
-## handlers/main.yml
-- Define the user you want to create
-- Define the port you want to contact through via ssh
 ## tasks/main.yml
-After this role you will be able to:
-- Connect to the server via ssh without any password
-- Have a user on that server with sudo privileges
-## vars/main.yml
-- Define the path of the passwd_file
+After this role you will get:
+- Nginx with the latest version
+- Empty /etc/nginx/sites-availabe
+- Nginx server tokens off
 
