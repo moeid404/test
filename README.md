@@ -53,3 +53,16 @@
 > After this role you will get:
 - Directory of fresh wordpress App with recommended permissions
 - Linked file from sites-avilable to sites-enabled "The main file which will be served"
+----
+## 6.firewall role 🚩
+### defaults/main.yml
+- Define the path for your rules on your local machine
+### tasks/main.yml
+> After this role you will get:
+- iptables-persistent at latest version if you use it to apply and save your rules after excuting it.
+----
+## 7.SSL role 🚩
+### tasks/main.yml
+> After this role you will get:
+- certbot, python3-certbot-nginx at latest version.
+- Then you can complete the steps via $ certbot --nginx -d domain_name
