@@ -4,10 +4,10 @@
 
 ## Beginning🚩
 ### Project Directory Structure:
-1. Put you password in passwd_file
+1. Put your password in passwd_file
 2. Encrypt it with via Ansible Vault
 3. Put your ip in hosts file
-4. Put a value for hosts variable in play.yml file
+4. Define hosts variable in play.yml file
 
 # 1.server_provisioning role🚩
 ## defaults/main.yml
