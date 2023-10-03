@@ -43,3 +43,16 @@
 - mariadb-server, python3-mysqldb at latest version
 - Data base and it's user with all privileges on all data bases
 - if you want to give the privileges only on the data base use >> priv: '{{db_name}}.*:ALL'
+### vars/main.yml
+- Define the path of the db_passwd
+----
+## 4.mariadb role 🚩
+### defaults/main.yml
+- Define db_name, db_user, db_host
+### tasks/main.yml
+> After this role you will get:
+- mariadb-server, python3-mysqldb at latest version
+- Data base and it's user with all privileges on all data bases
+- if you want to give the privileges only on the data base use >> priv: '{{db_name}}.*:ALL'
+### vars/main.yml
+- Define the path of the db_passwd
