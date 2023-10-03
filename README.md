@@ -1,5 +1,20 @@
 # wordpress-app
 - **LEMP Stack with a wordpress App**
 - **Supposing you just having a server ip and password**
-## First 🚩
+
+## Beginning🚩
 ### Project Directory Structure:
+1. Put you password in passwd_file
+2. Encrypt it with via Ansible Vault
+3. Put your ip in hosts file
+4. Put a value for hosts variable in play.yml file
+
+# 1.server_provisioning role🚩
+## defaults/main.yml
+- Define the user you want to create
+- Define the port you want to contact through via ssh
+## tasks/main.yml
+- 
+## templates/main.yml
+## vars/main.yml
+
